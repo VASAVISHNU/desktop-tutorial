@@ -1,0 +1,79 @@
+<!--
+    Javascript(Js)
+--scripting language, Interpreted programming language
+Difference between java and JS:
+--Java user compiler and JS uses interpreter
+--Java is used for backend and JS is used for frontend
+--Java is a OOP programming language where JS is an OOP scripting language
+--Java needs a virtual machine platform that allows you to create compiled programs
+Version of JavaScript :
+--ES6 (ECMAScript 6)
+--It is started in European computer manufacturing association(ECMAScript)
+Ways to add JS to HTML:
+1.Internal--The script will be written in the section by using a tag which is <script></script>.
+2.External--Creating a file with .js extension and adding it to HTML page (<script src=""></script>).
+Ways to create Variables :
+1.Just by name
+2.using var  
+3.using const
+4.using let
+Data Types:
+1. var name = "MSB2265";
+2.var float = 0.35;
+3.var bool = true;
+4.var e;
+5.var f = null;
+ 
+Ways to display the output :
+1. document.write()
+2.console.log()
+3.alert()
+4.innerHTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //code goes here
+        //variables creating
+        a = 20;
+        var b = 20;
+        const c = 30;
+        let d = 25;
+     //data types in JS
+      var name = "MSB2265";
+      var float = 0.35;
+      var bool = true;
+      var e;
+      var f = null;
+      var array =["A", "B", "C"];
+      var user = {
+        name : "MSB2265",
+        strength : 20
+      };
+      var wish = function(){
+        document.write("hello");
+      } 
+      document.write(typeof(b)+"<br>");
+      document.write(typeof(name)+"<br>");
+      document.write(typeof(float)+"<br>");
+      document.write(typeof(bool)+"<br>");
+      document.write(typeof(e)+"<br>");
+      document.write(typeof(f)+"<br>");
+      console.log(d);
+      document.write(typeof(array)+"<br>");
+      document.write(typeof(user)+"<br>");
+      document.write(typeof(wish));
+     // alert(name);
+
+    </script>
+    <script src="basic.js"></script>
+</body>
+</html>
